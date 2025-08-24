@@ -25,14 +25,19 @@ Dataset
 5. Visualization & dashboarding in Power BI  
 
  Key Insights
-- Awareness **lowest among young adults (18–30 years)**  
-- **Ethnic disparities** observed (lower awareness in Mexican Americans)  
-- **No significant gender gap** found  
-- **Action Plan**: Targeted youth campaigns & community-based screening  
+- Awareness lowest among young adults (18–30 years)
+- Ethnic disparities observed (lower awareness in Mexican Americans)  
+- No significant gender gap found  
+- Action Plan: Targeted youth campaigns & community-based screening
 
+Action plan
+- Youth awareness campaigns (digital/social health campaigns).
+- Targeted screening in Mexican American Communities.
+- Reinforce communication for high-Risk (LDL>130 mg/dL) groups.
+  
  Dashboard
-![Dashboard Preview](./dashboard/dashboard_preview.png)  
-🔗 [Download Power BI File](./dashboard/LDL_Project.pbix)
+![Dashboard Preview](./dashboard/dashboard_preview.png)
+ Summary: https://github.com/Abhishekh-Jha/LDL_Project/blob/main/LDL-C%20powerBI%20Dashboard/Sumary.png
 
  How to Run
 ```bash
