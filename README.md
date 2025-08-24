@@ -20,7 +20,7 @@ Dataset
   Workflow
 1. Data cleaning & preprocessing  
 2. Exploratory Data Analysis (EDA)  
-3. Statistical tests (Chi-square, Logistic Regression)  
+3. Statistical tests (Logistic Regression)  
 4. Clustering to segment participants  
 5. Visualization & dashboarding in Power BI  
 
@@ -36,7 +36,7 @@ Action plan
 - Reinforce communication for high-Risk (LDL>130 mg/dL) groups.
   
  Dashboard
-![Dashboard Preview](./dashboard/dashboard_preview.png)
+![Dashboard Preview](https://github.com/Abhishekh-Jha/LDL_Project/blob/main/LDL-C%20powerBI%20Dashboard/dashboard_preview.png)
  Summary: https://github.com/Abhishekh-Jha/LDL_Project/blob/main/LDL-C%20powerBI%20Dashboard/Sumary.png
 
  How to Run
