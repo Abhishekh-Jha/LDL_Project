@@ -1,26 +1,42 @@
-# LDL_Project Awareness & Risk Analytics
-This project analyzes population-level LDL cholesterol awareness using Python, SQL, and Power BI.
+LDL Cholesterol Awareness Analysis (NHANES 2017–2018)
 
-# Tools
-- Python (Pandas, NumPy, Statsmodels, Seaborn, Matplotlib)
-- SQL (data extraction & queries)
-- Power BI (interactive dashboard)
-- Statistics (logistic regression, chi-square tests, clustering)
+Data Analysis |  Statistical Modeling |  Power BI Dashboard
 
-# Files
-- Jupyter notebooks: Data cleaning & analysis
-- CSVs: Processed data exports
-- .pbix: Power BI interactive dashboard
+ Overview
+This project analyzes LDL cholesterol awareness among US adults using the NHANES 2017–2018 dataset.  
+The objective is to identify awareness gaps across age, ethnicity, and gender and present insights through python analysis, SQL queries, and an interactive Power BI dashboard.
 
-# Insights
-- Awareness is lowest in young adults (18–30)
-- Awareness disparities across ethnic groups (lowest: Mexican Americans)
-- No gender gap observed
+Dataset
+- Source: [NHANES 2017–2018](https://wwwn.cdc.gov/nchs/nhanes/)  
+- Modules used: Demographics, Lipid Profile (HDL, LDL, Triglycerides, Total Cholesterol), and Health Questionnaire  
+- Participants: ~9,000 individuals  
 
-# Dashboard
-The Power BI dashboard visualizes awareness by LDL category, age, gender, and ethnicity.
+ Tools & Technologies
+- Python: Pandas, NumPy, Matplotlib, Seaborn, Statsmodels  
+- SQL: Data extraction & querying  
+- Power BI: Interactive dashboards & storytelling  
+- GitHub: Version control & documentation  
 
-Action Plan
-Focus 1: Youth awareness campaigns (digital/social health campaigns).
-Focus 2: Targeted screening in Mexican American communities.
-Focus 3: Reinforce communication for high-risk (LDL > 130 mg/dL) groups.
+  Workflow
+1. Data cleaning & preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Statistical tests (Chi-square, Logistic Regression)  
+4. Clustering to segment participants  
+5. Visualization & dashboarding in Power BI  
+
+ Key Insights
+- Awareness **lowest among young adults (18–30 years)**  
+- **Ethnic disparities** observed (lower awareness in Mexican Americans)  
+- **No significant gender gap** found  
+- **Action Plan**: Targeted youth campaigns & community-based screening  
+
+ Dashboard
+![Dashboard Preview](./dashboard/dashboard_preview.png)  
+🔗 [Download Power BI File](./dashboard/LDL_Project.pbix)
+
+ How to Run
+```bash
+git clone https://github.com/Abhishekh-Jha/LDL_Project.git
+cd LDL_Project
+pip install -r requirements.txt
+jupyter notebook notebooks/LDL_Analysis.ipynb
